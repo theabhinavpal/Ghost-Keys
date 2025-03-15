@@ -9,7 +9,6 @@ The Ghost Keys Website is a dynamic web application that simulates real-time tex
 ⌨️ Auto-Typing Effect for displaying text dynamically.
 📂 File Upload Support to auto-type content from a document.
 🎨 Smooth UI & Animations for a visually appealing experience.
-⚙️ Customizable Speed & Style for text appearance.
 🌐 Responsive Design to work on all devices.
 
 
