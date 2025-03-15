@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto-Typing File Content</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ghost Keys</h1>
+    <p>Upload a <strong>.txt</strong> or <strong>.pdf</strong> file, and watch the content appear magically!</p>
+    
+    <div class="file-input-container">
+      <input type="file" id="fileInput" accept=".txt,.pdf">
+      <div id="fileInfo" class="file-info"></div>
+    </div>
+    
+    <div class="controls">
+      <button id="pauseBtn" class="control-btn pause-btn" disabled>Pause</button>
+      <button id="clearBtn" class="control-btn clear-btn">Clear</button>
+    </div>
+    
+    <div id="loadingIndicator" class="loading">
+      <div class="loading-spinner"></div>
+      <p>Processing your document...</p>
+    </div>
+    
+    <div class="output-container">
+      <div id="output" class="output"></div>
+    </div>
+  </div>
+
+  <!-- PDF.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
